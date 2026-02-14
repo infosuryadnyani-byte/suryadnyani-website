@@ -22,7 +22,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-2">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center gap-1">
             <div className="relative w-12 h-12">
               <Image
                 src="/logo.png"
@@ -31,13 +31,13 @@ export function Navbar() {
                 className="object-contain"
               />
             </div>
-            <div className="hidden sm:flex flex-col">
-              <span className="font-poppins font-bold text-base text-foreground leading-tight">
-                Suryadnyani Renewable
-              </span>
-              <span className="font-poppins font-medium text-xs text-text-secondary leading-tight">
-                Energy Private Limited
-              </span>
+            <div className="hidden sm:block relative w-64 h-12">
+              <Image
+                src="/name.jpeg"
+                alt="Suryadnyani Name"
+                fill
+                className="object-contain object-left"
+              />
             </div>
           </Link>
 

@@ -61,12 +61,6 @@ export default function Management() {
         "Financial planning and tax consultancy services.",
     },
     {
-      name: "Jalna Enterprises",
-      role: "Chartered Accountant",
-      description:
-        "Financial planning and tax consultancy services.",
-    },
-    {
       name: "Dinesh Shah & Associates",
       role: "Financial Consultant",
       description:

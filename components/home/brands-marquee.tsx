@@ -8,7 +8,7 @@ import Link from 'next/link';
 // For now we'll use some placeholders or just text if images aren't present
 const brands = [
     { name: 'Brand 1', src: '/ourbrands/Brand 1.webp' },
-    { name: 'Brand 2', src: '/ourbrands/Brand 2.jpeg' },
+    { name: 'Brand 2', src: '/ourbrands/Brand2.png' },
     { name: 'Brand 3', src: '/ourbrands/Brand 3.png' },
     { name: 'Brand 4', src: '/ourbrands/Brand 4.png' },
     { name: 'Brand 5', src: '/ourbrands/Brand 5.png' },
@@ -17,11 +17,11 @@ const brands = [
     { name: 'Brand 8', src: '/ourbrands/Brand 8.svg' },
     { name: 'Brand 9', src: '/ourbrands/Brand 9.png' },
     { name: 'Brand 10', src: '/ourbrands/Brand 10.png' },
-    { name: 'Brand 11', src: '/ourbrands/Brand 11.png' },
+    { name: 'Brand 11', src: '/ourbrands/Brand11.png' },
     { name: 'Brand 12', src: '/ourbrands/Brand 12.svg' },
-    { name: 'Brand 13', src: '/ourbrands/Brand 13.webp' },
+    { name: 'Brand 13', src: '/ourbrands/Brand13.png' },
     { name: 'Brand 14', src: '/ourbrands/Brand 14.png' },
-    { name: 'Brand 15', src: '/ourbrands/Brand 15.png' },
+    { name: 'Brand 15', src: '/ourbrands/Brand15.png' },
 ];
 
 export function BrandsMarquee() {

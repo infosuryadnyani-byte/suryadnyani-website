@@ -203,10 +203,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '500+', label: 'Projects Completed' },
-              { number: '10K+', label: 'Happy Customers' },
-              { number: '50MWp', label: 'Capacity Installed' },
-              { number: '15+', label: 'Years Experience' },
+              { number: '40+', label: 'Projects Completed' },
+              { number: '800+', label: 'Happy Customers' },
+              { number: '975kwp', label: 'Capacity Installed' },
+              { number: '8+', label: 'Years Experience' },
             ].map((stat, index) => (
               <div key={index}>
                 <p className="text-4xl md:text-5xl font-poppins font-bold text-foreground mb-2">

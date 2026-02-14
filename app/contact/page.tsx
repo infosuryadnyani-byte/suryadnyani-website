@@ -53,7 +53,7 @@ export default function Contact() {
                 <MapPin className="w-7 h-7 text-primary" />
               </div>
               <h3 className="font-poppins font-bold text-lg text-foreground mb-2">Location</h3>
-              <p className="text-text-secondary font-semibold">Navi Mumbai, India</p>
+              <p className="text-text-secondary font-semibold">S-151, Fantasia Business Park, Plot No. 47, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400705</p>
               <p className="text-sm text-text-secondary mt-2">Serving all regions across India</p>
             </div>
           </div>

@@ -58,11 +58,11 @@ export function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4 pt-8">
               <div>
-                <p className="text-3xl font-poppins font-bold text-primary">500+</p>
+                <p className="text-3xl font-poppins font-bold text-primary">40+</p>
                 <p className="text-sm text-gray-300">Projects Completed</p>
               </div>
               <div>
-                <p className="text-3xl font-poppins font-bold text-primary">10K+</p>
+                <p className="text-3xl font-poppins font-bold text-primary">800+</p>
                 <p className="text-sm text-gray-300">Happy Customers</p>
               </div>
             </div>
