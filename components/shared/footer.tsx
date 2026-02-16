@@ -25,8 +25,6 @@ export function Footer() {
             </div>
             <p className="text-sm text-gray-300">
               Empowering homes and businesses with clean, renewable solar energy solutions.
-              <br />
-              CIN : U35105MH2024PTC434993
             </p>
           </div>
 
