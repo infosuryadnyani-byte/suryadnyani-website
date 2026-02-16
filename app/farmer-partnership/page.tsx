@@ -24,7 +24,7 @@ export default function FarmerPartnershipPage() {
                     </div>
                     <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
                         <h1 className="text-4xl md:text-6xl font-bold font-poppins mb-6 animate-fade-in-up">
-                            Farmer Partnership
+                            Farmers Partnership
                         </h1>
                         <div className="relative w-full max-w-4xl mx-auto h-24 md:h-32 mt-6 animate-fade-in-up delay-100">
                             <Image
@@ -51,7 +51,7 @@ export default function FarmerPartnershipPage() {
                 <section className="py-16 bg-gray-50">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-12">
-                            <h2 className="text-3xl font-bold font-poppins text-foreground mb-4">Farmer Partnership Model</h2>
+                            <h2 className="text-3xl font-bold font-poppins text-foreground mb-4">Farmers Partnership Model</h2>
                             <p className="text-gray-600 max-w-2xl mx-auto">
                                 At Suryadnyani Renewable Energy Private Limited, we believe that farmers should benefit directly from the renewable energy revolution. Our partnership model is designed to deliver long-term financial security while preserving land ownership.
                             </p>
