@@ -41,10 +41,10 @@ export function CtaSection() {
           {/* Right Side - Buttons */}
           <div className="space-y-4">
             <Link
-              href="/contact"
+              href="https://drive.google.com/file/d/1bWq0AQaAVVgYxcYkkqNlKM87yHltOk2v/view?usp=drivesdk"
               className="block w-full bg-foreground hover:bg-gray-900 text-primary font-bold py-4 px-8 rounded-lg transition-all duration-300 text-center flex items-center justify-center space-x-2"
             >
-              <span>Schedule Free Consultation</span>
+              <span>Download Profile </span>
               <ArrowRight className="w-5 h-5" />
             </Link>
 

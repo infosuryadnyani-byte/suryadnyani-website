@@ -8,6 +8,8 @@ import { BenefitsSection } from '@/components/home/benefits-section';
 import { CtaSection } from '@/components/home/cta-section';
 import { BrandsMarquee } from '@/components/home/brands-marquee';
 
+import { ContactFormSection } from '@/components/home/contact-form-section';
+
 export default function Home() {
   return (
     <>
@@ -15,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <HighlightsSection />
       <ServicesOverview />
+      <ContactFormSection />
       <BrandsMarquee />
       <BenefitsSection />
       <CtaSection />

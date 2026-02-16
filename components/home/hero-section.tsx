@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ContactForm } from '../utility/contact-form';
+
 import { ArrowRight, Sun } from 'lucide-react';
 
 export function HeroSection() {
@@ -19,8 +19,11 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left Side - Text */}
-          <div className="text-white space-y-6 md:pr-8">
+          {/* Left Side - Empty/Spacer (hidden on mobile, visible on desktop to push text right) */}
+          <div className="hidden md:block"></div>
+
+          {/* Right Side - Text */}
+          <div className="text-white space-y-6">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">
                 <Sun className="w-6 h-6 text-primary" />
@@ -66,14 +69,6 @@ export function HeroSection() {
                 <p className="text-sm text-gray-300">Happy Customers</p>
               </div>
             </div>
-          </div>
-
-          {/* Right Side - Glassmorphism Form */}
-          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 shadow-xl">
-            <h3 className="text-white font-poppins font-bold text-2xl mb-6 text-balance">
-              Get Your Free Quote Today
-            </h3>
-            <ContactForm />
           </div>
         </div>
       </div>

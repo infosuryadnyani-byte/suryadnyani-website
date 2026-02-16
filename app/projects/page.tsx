@@ -47,17 +47,17 @@ export default function Projects() {
 
   const impacts = [
     {
-      value: 500,
+      value: 40,
       suffix: "+",
       label: "Projects Completed",
     },
     {
-      value: 50000,
+      value: 975,
       suffix: " kWp",
       label: "Capacity Installed",
     },
     {
-      value: 10000,
+      value: 800,
       suffix: "+",
       label: "Happy Customers",
     },
@@ -65,7 +65,7 @@ export default function Projects() {
 
   const environmental = [
     {
-      value: "50000+",
+      value: "975+",
       unit: "Tons",
       label: "CO2 Emissions Avoided",
     },

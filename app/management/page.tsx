@@ -10,7 +10,7 @@ export default function Management() {
       name: "Mr. Dhiraj Chandrakant Sagavekar",
       role: "Managing Director",
       description:
-        "Visionary leader with extensive experience in renewable energy sector and business development.",
+        "Visionary leader with extensive experience in realstate sector and business development.",
     },
     {
       name: "Mr. Anmol Arvind Jadhav",
@@ -34,16 +34,22 @@ export default function Management() {
         "Ensuring workplace safety standards and regulatory compliance.",
     },
     {
-      name: "Technical Team Lead",
-      role: "Engineering Manager",
+      name: " Girish Patil",
+      role: "Electrical Engineer",
       description:
         "Leading technical implementation and quality assurance.",
     },
     {
-      name: "Operations Manager",
-      role: "Project Operations",
+      name: "Shubham Kamerkar",
+      role: "Digital marketing Expert",
       description:
-        "Overseeing project execution and maintenance operations.",
+        "Digital marketing and content creation for brand awareness and lead generation.",
+    },
+    {
+      name: "Kiran Patade",
+      role: "Customer Relationship Expert",
+      description:
+        "Customer Relationship Management and support.",
     },
   ];
 
@@ -65,6 +71,12 @@ export default function Management() {
       role: "Financial Consultant",
       description:
         "Financial advisory and accounting services.",
+    },
+    {
+      name: "Ramesh Shishodia And Associates",
+      role: "Chartered Accountants",
+      description:
+        "Financial auditing and accounting services.",
     },
     {
       name: "Navarch",
@@ -106,7 +118,19 @@ export default function Management() {
       name: "S&T Web Works",
       role: "Website Development",
       description:
-        "Website Development.",
+        "Website Development Expert.",
+    },
+    {
+      name: "AAARSH",
+      role: "Infrastructure Consultant",
+      description:
+        "Infrastructure consultancy services.",
+    },
+    {
+      name: "Relconc Construction Pvt Ltd",
+      role: "Construction Partner",
+      description:
+        "Construction and civil works partner.",
     },
   ];
 

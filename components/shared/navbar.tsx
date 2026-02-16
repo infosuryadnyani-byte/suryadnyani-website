@@ -14,6 +14,7 @@ export function Navbar() {
     { href: '/services', label: 'Services' },
     { href: '/projects', label: 'Projects' },
     { href: '/management', label: 'Management' },
+    { href: '/farmer-partnership', label: 'Farmer Partnership' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -23,7 +24,7 @@ export function Navbar() {
         <div className="flex justify-between items-center py-2">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1">
-            <div className="relative w-12 h-12">
+            <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
               <Image
                 src="/logo.png"
                 alt="Suryadnyani Logo"
@@ -31,7 +32,7 @@ export function Navbar() {
                 className="object-contain"
               />
             </div>
-            <div className="hidden sm:block relative w-64 h-12">
+            <div className="relative w-40 h-10 sm:w-64 sm:h-12 ml-2">
               <Image
                 src="/name.jpeg"
                 alt="Suryadnyani Name"
