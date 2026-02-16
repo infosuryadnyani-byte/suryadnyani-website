@@ -12,29 +12,14 @@ export default function FarmerPartnershipPage() {
             <div className="min-h-screen bg-background">
                 {/* Hero Section */}
                 <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-                    <div className="absolute inset-0 bg-black/60 z-10" />
                     <div className="absolute inset-0">
                         <Image
-                            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2832&auto=format&fit=crop"
-                            alt="Farmer in field with solar panels"
+                            src="/farmer.jpeg"
+                            alt="Farmer Partnership"
                             fill
                             className="object-cover"
                             priority
                         />
-                    </div>
-                    <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-                        <h1 className="text-4xl md:text-6xl font-bold font-poppins mb-6 animate-fade-in-up">
-                            Farmers Partnership
-                        </h1>
-                        <div className="relative w-full max-w-4xl mx-auto h-24 md:h-32 mt-6 animate-fade-in-up delay-100">
-                            <Image
-                                src="/save-farmers.png"
-                                alt="Let's Save The Farmer's Together"
-                                fill
-                                className="object-contain"
-                                priority
-                            />
-                        </div>
                     </div>
                 </section>
 
