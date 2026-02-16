@@ -10,7 +10,7 @@ export default function Management() {
       name: "Mr. Dhiraj Chandrakant Sagavekar",
       role: "Managing Director",
       description:
-        "Visionary leader with extensive experience in realstate sector and business development.",
+        "Visionary leader with extensive experience in Real Estate sector and business development.",
     },
     {
       name: "Mr. Anmol Arvind Jadhav",
