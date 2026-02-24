@@ -186,7 +186,7 @@ export default function Contact() {
               <span>Call Now</span>
             </a>
             <a
-              href="info.suryadnyani@gmail.com"
+              href="mailto:info.suryadnyani@gmail.com"
               className="inline-flex items-center space-x-2 px-8 py-4 border-2 border-primary text-primary hover:bg-primary/10 font-bold rounded-lg transition-all duration-300"
             >
               <Mail className="w-5 h-5" />

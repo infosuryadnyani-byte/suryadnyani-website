@@ -24,7 +24,9 @@ export function Footer() {
               <span className="font-poppins font-bold text-lg">Suryadnyani Renewable Energy Private Limited</span>
             </div>
             <p className="text-sm text-gray-300">
-              CIN:U35105MH2024PTC434993
+              CIN: U35105MH2024PTC434993
+            </p>
+            <p className="text-sm text-gray-300">
               Empowering homes and businesses with clean, renewable solar energy solutions.
             </p>
           </div>
